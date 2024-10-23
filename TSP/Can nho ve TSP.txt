@@ -1,0 +1,16 @@
+TSP
+-Greedy: Mang 1 chieu
+	swap, bubble_sort(<)
+	greedy(ds_canh , n , pa)
+	init_forest(parent, n);
+	find_root(parent, int u)
+	dinhcap3(pa , k , canh moi)
+	chu_trinh(int rdau,int rcuoi)
+	update_forest(parent ,rdau,rcuoi)
+-NhanhCan:Mang 2 chieu
+	NhanhCan(a[][], int n , int i , int dau, float tgt, gnntt ,cd, canh x[], canh pa[])
+	capnhat(a, n , tgt , *gnntt, x[], pa[])
+	cochuytrinh(x, i, j)
+	canduoi(tgt, a , n , i+1 );
+	
+	

@@ -1,0 +1,16 @@
+Balo:
+-Greedy:
+	+greedy(DoVat* dsdv , int n , float w)
+		 sodovatduocchon = w/dsdv[i].tl;
+		  w -= dsdv[i].sodovatduocchon*dsdv[i].TL;
+
+-NhanhCan: (CanTren)
+	+Tao_nut_goc (float w, float *TLConLai, float *CT, float* GiaLNTT, float* TGT , float Don_Gia_Lon_Nhat)
+	+Cap_nhat_PA_TNTT (float TGT , float* GiaLNTT, int x[], DoVat* dsdv, int n)
+	+min (int a, int b)
+	+Nhanh_Can (int i , float* TGT , float* CT, float* TLConlai, float* GiaLNTT, int x[], DoVat* dsdv ,int n)
+
+-QuyHoachDong:
+	+Tao_bang(DoVat* dsdv, int n, int w, float f[][w+1], int x[][w+1])
+	+In_bang (int n, int w, float f[][w+1], int x[][w+1])
+	+Tra_bang (DoVat* dsdv, int n ,int w, int x[][w+1])

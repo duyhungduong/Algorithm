@@ -1,0 +1,23 @@
+Tam giác số:
+-Greedy:(mảng 2 chiều)
+	+max(a, i, j) trả về index
+	+GreedyTop(a , n ,pa )
+	+sumPA(pa, n) trả về sum
+	+printPA(pa, n)
+-NhanhCan: (mang 2 chiều)
+	+max( a[] , j) trả về a[0],a[1], a[j-1, j ,j+1] 
+	+Can_tren(i, j, a, TGT ,*CT, n)
+	+Cap_Nhat_GLNTT(TGT, *GLNTT, x, PA, n)
+	+Nhanh_Can(i,j , a, *TGT, *CT, *GLNTT, x, PA, n) 
+	+sumPA(PA , n )
+	+printPA(PA, n )
+
+-QuyHoachDong: (mảng 2 chiều)
+	+cs_max(n, f , i, j) trả về index;
+	+tao_bang(a , n ,f)
+	+in_bang(n , f)
+	+cs_max_dongcuoi(f , j)
+	+tra_bang(a, n, f ,pa)
+	+tong_pa(pa , n) trả về sum
+	+printPA(pa , n)
+	
